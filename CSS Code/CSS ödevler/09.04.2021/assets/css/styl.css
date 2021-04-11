@@ -1,0 +1,71 @@
+/*Sayfanin butunu icin Tanimlanan CSS Kodlari*/
+* {
+    font-family: Roboto;
+}
+
+/*----Ana Menu icin Tanimlana Stiller-- */
+
+.navmenu {
+    display: block;
+    margin: auto;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.02;
+}
+
+.anasayfamenu {
+    /* Olusturdugumuz listeden list-style-type yardimiya basdaki diskleri kaldirdik
+ margin: 0;   padding: 0; ile dolgu ve kenar bosluklarini kaldirdik */
+    list-style: none;
+    margin: 0;
+
+    padding: 0;
+
+    font-weight: 600;
+
+
+}
+
+.menucubugu {
+    /* tagina class eklenerek float:left|link :local-link:no-button ile yanyana getirildi  */
+    float: left;
+    font-weight: bold;
+
+
+}
+
+
+a {
+    /*  tagina class eklenerek float:left|link :local-link:no-button ile yanyana getirildi  */
+    display: block;
+
+    padding: 25px 26px;
+
+
+    background-color: #a46497;
+    color: white;
+    text-decoration: none;
+    /*text-decoration ile yazinin altina ustune cizgi cekliier ve none ile var olan cizgiler yok edileir*/
+
+}
+
+a:hover {
+    background-color:
+        #e49cd5
+}
+
+a:active {
+    color: black;
+
+}
+
+a:link {
+    color: white;
+}
+
+
+.resim {
+    width: 1300px;
+    height: 500px;
+    display: block;
+    margin: auto;
+}

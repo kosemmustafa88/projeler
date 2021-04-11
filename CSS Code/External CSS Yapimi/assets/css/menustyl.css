@@ -1,0 +1,15 @@
+* {
+    font-family: Roboto;
+}
+
+.solmenu {
+    background-color: gray;
+    text-align: center;
+    width: 15rem;
+
+}
+
+.aktif {
+    background-color: rgb(75, 74, 74);
+    color: white;
+}

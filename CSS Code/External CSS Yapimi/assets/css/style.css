@@ -1,0 +1,31 @@
+/*  Bu alana istenilen aciklmalar yazilabilri    */
+p {
+    color: rgb(128, 19, 0);
+    text-align: justify;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: orangered
+}
+
+ul {
+    color: orchid;
+}
+
+.hakkimizda {
+    color: rgba(12, 12, 12, 0.555);
+    font-size: 2rem;
+    text-align: center;
+    background-color: darkmagenta;
+    width: 50%;
+}
+
+.hakkimizda2 {
+    color: gainsboro;
+    font-size: 2rem;
+    text-align: left;
+    background-color: grey;
+}

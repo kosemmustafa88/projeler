@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kayıt Formu</title>
+</head>
+<body>
+​
+	<form>
+		<table width="500" border="0">
+			<tr>
+				<td>
+					<label for="adi">Adı *</label>
+				</td>
+				<td>
+					<input type="text" 
+					id="adi" name="adi" required="" minlength="2" maxlength="20">
+				</td>	
+			</tr>
+​
+			<tr>
+				<td>
+					<label for="soyadi">Soyadı *</label>
+				</td>
+				<td>
+					<input type="text" 
+					id="soyadi" name="soyadi" required="" minlength="2" maxlength="20">
+				</td>	
+			</tr>
+​
+			<tr>
+				<td>
+					Cinsiyet
+				</td>
+				<td>
+					<input type="radio" id="cBay" name="cinsiyet" value="bay">
+					<label for="cBay">Bay</label>
+​
+					<input type="radio" id="cBayan" name="cinsiyet" value="bayan">
+					<label for="cBayan">Bayan</label>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label>Ilce</label>
+				</td>
+				<td>
+					<select name="ilce" id="ilce">
+						<option>Bornova</option>
+						<option>Balcova</option>
+						<option>Guzelbagce</option>
+						<option>bayrakli</option>
+					</select>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<label for="eposta">E Posta *</label>
+					
+				</td>
+				<td><input type="email" id="eposta" name="eposta" required=""></td>
+			</tr>
+			<tr>
+				<td><label for="site">Kisisel Site</label> </td>
+				<td><input type="url" name="site" id="site"maxlengt="100" > </td>
+			</tr>
+			<tr>
+				<td><label for="telefon">Telefon</label> </td>
+				<td><input type="tel" name="telefon" id="telefon" maxlength="15" minlength="10"> </td>
+			</tr>
+			<tr>
+				<td>hobbiler </td>
+				<td><input type="checkbox" name="hobi1" id="hobi1" value="futbol"> <label for="habi1" >Futbol</label><br>
+					<input type="checkbox" name="hobi2" id="hobi2" value="hobi2">
+					<label for="hobi2">Voleybol</label><br>
+					<input type="checkbox" name="hobi3" id="hobi3" value="hobi3">
+					<label for="hobi3">Baketbol</label>
+				 </td>
+			</tr>
+			<tr>
+				<td>Profil Fotografi</td>
+				<td> <input type="file" name="file" id="file"><label for="file">Profil</label> </td>
+			</tr>
+			<tr>
+				<td><label>Dogum Tarihi</label></td>
+				<td> <input type="date" name="date" id="date" maxlength="2050-12-12" minlength="1988-12-12"></td>
+			</tr>
+			<tr>
+				<td><label for="adres">Adres</label></td>
+				<td><textarea id="adres" rows="5" cols="40"></textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" name="gonder" value="gonder"> 
+					<input type="reset" name="reset" value="temizle">
+
+				</td>
+			</tr>
+		</table>
+	</form>
+​
+</body>
+</html>

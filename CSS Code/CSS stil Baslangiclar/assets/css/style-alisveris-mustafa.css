@@ -1,0 +1,87 @@
+body {
+    font-family: Roboto;
+}
+
+a {
+    color: black;
+}
+
+table.shopping-cart {
+    /*Table icindeki .shopping-cart ismindeki class in boyu sayfanin yuzde 70 ini kapsasin ve arka plan rengi rgb(221, 221, 221) olsun
+    width : Tag boyutu |ram|yuzde|px|responsiv tasarim icin uygun olan yuzde vermektir background-color: Arka plan rengi veridl ;*/
+    width: 70%;
+    background-color: rgb(221, 221, 221);
+}
+
+
+
+table.shopping-cart th,
+table.shopping-cart td {
+    /*table icindeki shopping- cart isimli klasin icindeki th ve td hucreleri icin bicimlendime yapildi
+    padding: cm|rem|px|% bir elementin içeriği ile kenarlığı arasındaki dolgu genişliğini belirler.*/
+
+    padding: 0.4rem;
+}
+
+table.shopping-cart tfoot,
+table.shopping-cart thead {
+    /*table icindeki shopping- cart isimli clasin icindeki thead  ve tfoot tagkari icindeki alanlar icin bicimlendime yapildi
+    color: Yazi tipi rengi 
+    background-color: Arka plan rengi  ;.*/
+    background-color: rgb(58, 58, 58);
+    color: white;
+}
+
+table.shopping-cart tbody tr:nth-child(odd) {
+    /*table icindeki shopping- cart isimli clasin icindeki tbody tagi icindeki satirlardan  tek sayi sirasindaki td hucrelerinin arka plan rengi degisitirldi.
+    background-color: Arka plan rengi degistirir
+    nth-child(odd|even )/////even (çift), odd (tek) değerleri girilebilir. 
+     ayrica  an+b şeklinde bir formül gir8ilebilir. a ve b tam sayı değeri olup, a katlanarak gidecek sayıyı, b ise başlangıç değeri olan tam sayıyı ifade eder. + sembolü yerine – (eksi)  sembolü de kullanılabilir./// 
+    */
+
+    background-color: rgb(158, 158, 158);
+}
+
+
+table.shopping-cart tbody tr td:nth-child(3) {
+    /*table icindeki shopping- cart isimli clasin icindeki tbody tagi icindeki  satirlardan 3 numarali sutun hucrelerindeki metinler ortalandi.
+    text-align: center|left|right|justify
+    nth-child(odd|even )/////even (çift), odd (tek) değerleri girilebilir. 
+     ayrica  an+b şeklinde bir formül gir8ilebilir. a ve b tam sayı değeri olup, a katlanarak gidecek sayıyı, b ise başlangıç değeri olan tam sayıyı ifade eder. + sembolü yerine – (eksi)  sembolü de kullanılabilir./// 
+    */
+    text-align: center;
+}
+
+table.shopping-cart tbody tr td:nth-child(6) {
+    /* 6. sutundaki iconlar ortalandi*/
+    text-align: center;
+}
+
+table.shopping-cart tfoot,
+table.shopping-cart tbody tr td:nth-child(5),
+table.shopping-cart tbody tr td:nth-child(4) {
+    /*table icindeki shopping- cart isimli clasin icindeki tbody tagi icindeki  satirlardan 5 ve 4 numarali sutun hucrelerindeki metinler ortalandi.
+    text-align: center|left|right|justify
+    nth-child(odd|even )/////even (çift), odd (tek) değerleri girilebilir. Ayrica parantez icine direk sutun numarasi yada satir numarasi girilebilr.*/
+    text-align: right;
+}
+
+
+div.sc-buttons {
+    /* div icindeki sc-buttons isimli clasin icindeki varliklar  saga yaslandi*/
+    width: 70%;
+    text-align: right;
+}
+
+div.sc-buttons button {
+    /* div icindeki sc-buttons isimli classin icindeki butonlar ozelligi degistirildi
+      background-color: renk
+    font-size: butonun icindeki yazi boyutu 
+    color: white;
+    padding: kenarlar arasi bosluk
+    border: 0; ile sinirdaki siyah cizgiler yok edildi*/
+    background-color: tomato;
+    font-size: 1.1rem;
+    color: white;
+    padding: 0.5rem;
+    border: 0;
