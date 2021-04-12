@@ -1,0 +1,37 @@
+* {
+    font-family: Roboto;
+}
+
+div.takvim {
+    background-color: rgb(255, 155, 23);
+    width: 40%;
+    text-align: center;
+    padding: 0.8rem;
+    color: white;
+}
+
+div.takvim span::after {
+    content: "|";
+    padding: 0.8rem;
+    color: rgb(204, 50, 12);
+}
+
+div.takvim span:last-child::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f054";
+    color: black;
+}
+
+div.takvim span:first-child::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f053";
+    color: black;
+    padding: 0.8rem;
+}
+
+div.takvim .active {
+    color: black;
+    content: "sdsadsadsadsad";
+}
