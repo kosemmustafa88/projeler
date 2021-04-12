@@ -1,0 +1,15 @@
+.container1 {
+    background-color: violet;
+    width: 1000px;
+}
+
+.container2 {
+    background-color: tomato;
+    width: 90%;
+
+}
+
+.container2.msg {
+    background-color: turquoise;
+    width: 95%;
+}

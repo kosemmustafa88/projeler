@@ -5,9 +5,10 @@
 /* SOL MENU */
 
 nav.solmenu {
-    background-color: rgb(32, 236, 236);
+    background-color: rgb(32, 127, 236);
     text-align: left;
     width: 10rem;
+    display: none;
 }
 
 nav.solmenu a {
@@ -24,11 +25,11 @@ nav.solmenu li:hover {
 nav.solmenu li {
     list-style-position: inside;
     padding: 0;
-    list-style-type: "🌹";
+    list-style-type: "::";
 }
 
 nav.solmenu a:hover {
-    color: darkred;
+    color: rgb(22, 5, 5);
 }
 
 nav.solmenu ul {
@@ -37,6 +38,11 @@ nav.solmenu ul {
 }
 
 nav.solmenu .aktif {
-    background-color: cadetblue;
+    background-color: rgb(160, 95, 125);
     color: rgb(218, 211, 211);
+}
+
+a :hover {
+    font-style: italic;
+
 }
