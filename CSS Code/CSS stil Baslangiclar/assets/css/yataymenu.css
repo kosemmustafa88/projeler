@@ -17,11 +17,15 @@ nav.menu-yatay ul li {
 }
 
 nav.menu-yatay ul li a {
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
     background-color: rgb(204, 204, 204);
 }
 
 nav.menu-yatay ul li a:hover {
     background-color: darkolivegreen;
     color: white;
+}
+
+nav.menu-yatay ul li a:active {
+    background-color: black;
 }
