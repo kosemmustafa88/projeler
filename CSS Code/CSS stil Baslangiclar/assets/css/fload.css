@@ -1,0 +1,31 @@
+.header {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+
+}
+
+.nav {
+    background-color: blue;
+    text-align: center;
+    float: left;
+    width: 20%;
+}
+
+.asside {
+    background-color: burlywood;
+    padding: 1rem;
+    text-align: center;
+
+}
+
+.main {
+    background-color: grey;
+}
+
+.footer {
+    background-color: hotpink;
+    text-align: center;
+    padding: 1rem;
+}
