@@ -1,0 +1,66 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+}
+
+nav {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+    /*Overflow (taşma) özelliği, içerik öğesinin kutusundan taşması durumunda ne olacağını belirtir. 
+    Bu özellik, bir öğenin içeriği belirli bir alana sığmayacak kadar büyük olduğunda içeriği kırpıp kırmayacağınızı*/
+
+    background-color: #a46497;
+}
+
+nav ul li {
+    float: left;
+    margin-left: 8rem;
+
+}
+
+nav ul li a {
+    display: block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 1.2rem 1.2rem;
+
+    text-decoration: none;
+}
+
+nav ul li a :active {
+    background-color: black;
+}
+
+nav li a:hover {
+
+    background-color: #afd24a;
+    color: black;
+}
+
+nav .active {
+
+    background-color: #074b71;
+
+}
+
+nav ul li:first-child {
+    margin: 0rem;
+}
+
+nav ul li :last-child {
+    margin-right: 0rem;
+}
