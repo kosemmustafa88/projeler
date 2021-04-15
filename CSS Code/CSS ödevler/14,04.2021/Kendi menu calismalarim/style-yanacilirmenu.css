@@ -1,0 +1,41 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #a46497;
+    width: 6%;
+}
+
+nav ul li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: .8rem 0.8rem;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #afd24a;
+}
+
+nav ul li ul {
+    background-color: #158d8d;
+    display: none;
+    width: 8%;
+    position: absolute;
+    /*Absolute :Kendisini kapsayan bir üst öğeye relative konumlanmışsa öğeye göre konum almaktadır. Böyle bir eleman bulunmazsa, nesne web sayfasına göre konumlanacaktır.*/
+}
+
+
+nav ul li:hover ul {
+    display: block;
+    color: black;
+}
+
+nav li ul li {
+    display: block;
+}
