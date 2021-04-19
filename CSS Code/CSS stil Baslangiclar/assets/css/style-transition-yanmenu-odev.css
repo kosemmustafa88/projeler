@@ -1,0 +1,30 @@
+body {
+    margin: 0rem;
+    padding: 0;
+}
+
+.menu2 {
+    position: relative;
+    background-color: rgb(177, 141, 141);
+    width: 20vw;
+    height: 100vh;
+    top: 0;
+    left: -17vw;
+    transition: left 2s;
+
+}
+
+.menu2 .title2 {
+    background-color: blanchedalmond;
+    position: relative;
+    padding: 0.5rem;
+}
+
+.menu2 .title2 i {
+    position: absolute;
+    right: 0.5rem;
+}
+
+.menu2:hover {
+    left: 0;
+}

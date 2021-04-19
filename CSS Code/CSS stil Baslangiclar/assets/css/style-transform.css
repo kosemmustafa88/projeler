@@ -1,0 +1,17 @@
+.mesaj {
+    transform: translate(2rem, 3rem);
+    /* Kenarlardan ux ve y ekseninde uzaklastirdi ayri ari icin transform  yada y olur 
+    
+    */
+}
+
+.mesaj2 {
+    background-color: black;
+    transform: rotate(90deg);
+    width: 19vh;
+    height: 39vw;
+    color: blanchedalmond;
+    display: inline-block;
+}
+
+.mesaj5 {}

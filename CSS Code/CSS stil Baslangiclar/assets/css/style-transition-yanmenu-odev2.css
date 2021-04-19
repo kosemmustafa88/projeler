@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu3 {
+    width: 20vw;
+    height: 100vh;
+    background-color: darksalmon;
+    left: -17vw;
+    top: 0vw;
+    position: absolute;
+    transition: left 2s;
+}
+
+.menu3 .title3 {
+    background-color: darkslateblue;
+    padding: 0.5rem 5rem;
+    position: relative;
+    color: white;
+
+}
+
+.menu3 .title3 .oksag {
+    position: absolute;
+    right: 0.5rem;
+    transition: all;
+}
+
+.menu3 .title3 .oksol {
+    position: absolute;
+    right: 3rem;
+}
+
+.anahtar:checked+.menu3 {
+    left: 0;
+}
+
+.anahtar:checked+.menu3 .title3 .oksag {
+    display: none;
+
+}
+
+.menu3 ul {
+    list-style-type: none;
+
+}
+
+.menu3 ul a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+
+
+
+
+}
