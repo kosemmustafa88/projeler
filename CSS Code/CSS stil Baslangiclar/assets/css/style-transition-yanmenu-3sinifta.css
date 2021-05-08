@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+
+}
+
+.sol-menu {
+    width: 20vw;
+    height: 100vh;
+    background-color: tomato;
+    position: absolute;
+    left: -17vw;
+    top: 0;
+    transition: left 1s ease-out;
+}
+
+.sol-menu .title3 {
+    background-color: rgb(250, 64, 32);
+    color: white;
+    padding: 0.3rem;
+    position: relative;
+
+}
+
+.sol-menu .title3 label {
+    position: absolute;
+    right: 0.5rem;
+
+}
+
+.anahtar {
+    display: none;
+}
+
+.anahtar:checked+.sol-menu {
+    /* anahtari her zaman degistirecegiz elemanin ustune koymamiz lazim*/
+    left: 0;
+
+}

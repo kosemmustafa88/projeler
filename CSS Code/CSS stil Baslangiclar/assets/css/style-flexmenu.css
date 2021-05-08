@@ -1,0 +1,45 @@
+:root {
+    --renk1: #a46497;
+    --renk2: #afd24a;
+    opacity: 0.8;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    padding: 2rem;
+}
+
+.ana-menu {
+    background-image: var(--renk2);
+    border-radius: 0.4rem;
+
+}
+
+.ana-menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+.ana-menu a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem 2rem;
+    display: inline-block;
+}
+
+.ana-menu ul li {
+    border-right: 1px solid grey;
+}
+
+.ana-menu a:hover {
+    background-color: hotpink;
+}
+
+.ana-menu ul :first-child {
+    border-left: 1px solid grey;
+}
